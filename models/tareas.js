@@ -35,11 +35,7 @@ class Tareas {
 
     }
 
-    crearTarea(desc = '') {
-        const tarea = new Tarea(desc);
 
-        this._listado[tarea.id] = tarea;
-    }
 
     listadoCompleto() {
         this.listadoArr.forEach((tarea, id) => {

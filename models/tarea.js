@@ -12,4 +12,7 @@ class Tarea {
     }
 }
 
+
+console.log('hola')
+
 module.exports = Tarea;
